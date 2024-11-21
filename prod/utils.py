@@ -14,6 +14,7 @@ import pandas as pd
 import streamlit as st
 import altair as alt
 
+# /mount/src/mezclador_de_gatitos/prod/app.py
 
 class UpSample(nn.Module):
     """
@@ -422,12 +423,12 @@ def load_image(image_path):
 # Cargar todas las imágenes de gatos desde el directorio 'data/cats'
 def load_images():
     """Cargar rutas de imágenes de gatos."""
-    cat_images = os.listdir(os.path.join("data", "cats"))
+    cat_images = os.listdir(os.path.join("prod", "data", "cats"))
     cat_images = [
         img for img in cat_images if img.endswith(".jpg") or img.endswith(".jpeg")
     ]
     cat_images = sorted(cat_images, key=lambda name: int(name.split(".")[0]))
-    return [load_image(os.path.join("data", "cats", img)) for img in cat_images]
+    return [load_image(os.path.join("prod", "data", "cats", img)) for img in cat_images]
 
 
 # Cargar el modelo VAE preentrenado
@@ -444,7 +445,7 @@ def load_model():
     }
     vae = VAE(**vae_config).to("cpu")
     vae.load_state_dict(
-        torch.load(os.path.join("models", "vae.pt"), map_location=torch.device("cpu"))
+        torch.load(os.path.join("prod", "models", "vae.pt"), map_location=torch.device("cpu"))
     )
     return vae
 
