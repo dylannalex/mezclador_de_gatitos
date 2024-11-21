@@ -7,7 +7,7 @@ CAT_IMAGES = load_images()
 MODEL = load_model()
 IMAGES_PER_PAGE = 15
 IMAGES_PER_ROW = 5
-N_INTERPOLATIONS = 15
+N_INTERPOLATIONS = 11
 
 
 def display_image_grid(images, page_number, images_per_page, images_per_row):
