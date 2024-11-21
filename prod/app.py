@@ -49,7 +49,7 @@ def page_navigation():
 
     col1, col2 = st.columns([0.5, 0.5], gap="small")
     with col1:
-        st.subheader("Galería de Imágenes")
+        st.markdown("<h4>Galería de Imágenes</h4>", unsafe_allow_html=True)
         st.markdown(f"Mostrando página {page_number + 1} de {total_pages + 1}.")
         display_image_grid(CAT_IMAGES, page_number, IMAGES_PER_PAGE, IMAGES_PER_ROW)
 
@@ -67,7 +67,7 @@ def page_navigation():
                     st.rerun()
 
     with col2:
-        st.subheader("Visualización del espacio latente")
+        st.markdown("<h4>Visualización del espacio latente</h4>", unsafe_allow_html=True)
         st.write(" ")
 
         if "tsne_results" not in st.session_state:
@@ -82,9 +82,9 @@ def page_navigation():
         tsne_visualization(tsne_results, selected_indexes)
 
         if st.session_state["selected_images"]:
-            st.markdown("<h3>Imágenes seleccionadas</h3>", unsafe_allow_html=True)
+            st.markdown("<h4>Imágenes seleccionadas</h4>", unsafe_allow_html=True)
             st.markdown("Se han seleccionado las siguientes imágenes para la cruza:")
-            sub_cols = st.columns([0.4, 0.2, 0.2, 0.4], gap="small")
+            sub_cols = st.columns([0.35, 0.25, 0.25, 0.35], gap="small")
             for idx, img in enumerate(st.session_state["selected_images"]):
                 with sub_cols[idx+1]:
                     st.image(img, use_container_width=False, width=120, caption=f"Imagen {idx + 1}")
