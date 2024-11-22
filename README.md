@@ -3,16 +3,15 @@
 [![Página Web](https://img.shields.io/badge/P%C3%A1gina_Web-Mezclador%20de%20Gatitos-blue)](https://mezclador-gatitos.streamlit.app/)
 [![licence](https://img.shields.io/github/license/dylannalex/mezclador_de_gatitos?color=blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/LICENSE)
 
+¿Alguna vez has soñado con poder fusionar dos adorables gatitos en uno solo? ¡Pues ahora puedes hacerlo realidad con el **Mezclador de Gatitos**! Este proyecto se basa en la inteligencia artificial y el poder de las redes neuronales para combinar imágenes de gatitos, creando nuevas combinaciones visuales que no solo son asombrosas, sino también irresistiblemente tiernas.
 
 <p align="center"> <img src="../media/interpolation_example.png?raw=true" /> </p>
 
-¿Te imaginas fusionar dos adorables gatitos en uno solo? ¡Ahora es posible! Con el **Mezclador de Gatitos**, puedes:
+Con el Mezclador de Gatitos puedes:
 
 - ✨ **Combinar imágenes de gatitos:** Selecciona dos gatitos y descubre fascinantes fusiones llenas de ternura.
 
 - ✨ **Descubrir el mapa oculto de los gatitos:** Explora cómo la red neuronal organiza y representa a los gatitos en un espacio bidimensional.
-
-<p align="center"> <img src="../media/app-demo.png" /> </p>
 
 **¿Listo para descubrir combinaciones que nunca imaginaste?** 👉 [Explora ahora y crea tus propios gatitos únicos](https://mezclador-gatitos.streamlit.app/).
 
@@ -22,11 +21,7 @@
 
 1. [Organización del Repositorio](#-organización-del-repositorio)
 2. [Paquete para la implementación del VAE](#-paquete-para-la-implementación-del-vae)
-    - [VAE (Variational Autoencoder)](#vae-variational-autoencoder)
-    - [BetaLoss](#betaloss)
-    - [Función de entrenamiento](#función-de-entrenamiento)
 3. [Instalación y Ejecución](#-instalación-y-ejecución)
-
 
 ## 🐈 Organización del Repositorio
 
@@ -48,7 +43,7 @@ Incluye notebooks y código relacionado con el desarrollo experimental del model
 Carpeta destinada a la implementación de la aplicación final:
 
 - **app.py**: Archivo principal que ejecuta la aplicación web interactiva con Streamlit.
-- **modelo.pt**: Archivo con los pesos del modelo VAE entrenado en formato PyTorch.
+- **models/vae.pt**: Archivo con los pesos del modelo VAE entrenado en formato PyTorch.
 - **requirements.txt**: Lista de dependencias necesarias para ejecutar el proyecto.
 - **utils.py**: Funciones auxiliares para el preprocesamiento y carga del modelo.
 
