@@ -529,8 +529,8 @@ def tsne_visualization(tsne_results, selected_indexes):
         alt.Chart(tsne_df)
         .mark_circle()
         .encode(
-            x=alt.X("x", title="t-SNE Dimension 1"),
-            y=alt.Y("y", title="t-SNE Dimension 2"),
+            x=alt.X("x", title="Dimensión t-SNE 1"),
+            y=alt.Y("y", title="Dimensión t-SNE 2"),
             color=alt.Color("color:N", scale=None, legend=None),
             size=alt.Size("size:Q", legend=None),
         )
