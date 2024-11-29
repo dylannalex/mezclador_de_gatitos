@@ -1,16 +1,16 @@
-# Cat Mixer 🐱
+# Kitten Mixer 🐱
 
-[![Website](https://img.shields.io/badge/Website-Cat%20Mixer-blue)](https://mezclador-gatitos.streamlit.app/)
+[![Website](https://img.shields.io/badge/Website-Kitten%20Mixer-blue)](https://mezclador-gatitos.streamlit.app/)
 [![licence](https://img.shields.io/github/license/dylannalex/mezclador_de_gatitos?color=blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/LICENSE)
 [![English](https://img.shields.io/badge/🌐-%20English-blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/README.en.md)
 [![Español](https://img.shields.io/badge/🌐-%20Español-blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/README.md)
 
 
-Have you ever dreamed of merging two adorable kittens into one? Now you can make it a reality with the **Cat Mixer**! This project is based on artificial intelligence and the power of neural networks to combine kitten images, creating new visual combinations that are not only amazing but also irresistibly cute.
+Have you ever dreamed of merging two adorable kittens into one? Now you can make it a reality with the **Kitten Mixer**! This project is based on artificial intelligence and the power of neural networks to combine kitten images, creating new visual combinations that are not only amazing but also irresistibly cute.
 
 <p align="center"> <img src="../media/interpolation_example.png?raw=true" /> </p>
 
-With the Cat Mixer you can:
+With the Kitten Mixer you can:
 
 - ✨ **Combine kitten images:** Select two kittens and discover fascinating fusions full of cuteness.
 
