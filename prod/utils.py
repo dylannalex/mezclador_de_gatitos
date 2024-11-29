@@ -1,5 +1,7 @@
+import io
 import os
 from math import prod
+
 
 import torch
 import torch
@@ -15,6 +17,7 @@ import streamlit as st
 import altair as alt
 
 # /mount/src/mezclador_de_gatitos/prod/app.py
+
 
 class UpSample(nn.Module):
     """
@@ -445,7 +448,9 @@ def load_model():
     }
     vae = VAE(**vae_config).to("cpu")
     vae.load_state_dict(
-        torch.load(os.path.join("prod", "models", "vae.pt"), map_location=torch.device("cpu"))
+        torch.load(
+            os.path.join("prod", "models", "vae.pt"), map_location=torch.device("cpu")
+        )
     )
     return vae
 
@@ -516,7 +521,7 @@ def tsne_visualization(tsne_results, selected_indexes):
     tsne_df = pd.DataFrame(tsne_results, columns=["x", "y"])
 
     # Default settings for all points
-    tsne_df["color"] = "#f4a261"  # Default color
+    tsne_df["color"] = "#f9844a"  # Default color
     tsne_df["size"] = 50  # Default size
 
     # Update settings for selected points, if any
@@ -529,10 +534,24 @@ def tsne_visualization(tsne_results, selected_indexes):
         alt.Chart(tsne_df)
         .mark_circle()
         .encode(
-            x=alt.X("x", title="Dimensión t-SNE 1"),
-            y=alt.Y("y", title="Dimensión t-SNE 2"),
+            x=alt.X("x", title="t-SNE 1"),
+            y=alt.Y("y", title="t-SNE 2"),
             color=alt.Color("color:N", scale=None, legend=None),
             size=alt.Size("size:Q", legend=None),
         )
     )
     st.altair_chart(scatter_chart, use_container_width=True)
+
+
+def image_to_bytes(image):
+    """
+    Convierte una imagen PIL.Image.Image a un flujo binario en formato PNG.
+    """
+    buf = io.BytesIO()
+    image.save(buf, format="PNG")
+    buf.seek(0)
+    return buf.getvalue()
+
+
+def array_to_pil(image):
+    return Image.fromarray((image * 255).astype(np.uint8))
