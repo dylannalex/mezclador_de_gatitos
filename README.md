@@ -5,9 +5,9 @@
 [![English](https://img.shields.io/badge/🌐-%20English-blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/README.en.md)
 [![Español](https://img.shields.io/badge/🌐-%20Español-blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/README.md)
 
-¿Alguna vez has soñado con poder fusionar dos adorables gatitos en uno solo? ¡Pues ahora puedes hacerlo realidad con el **Mezclador de Gatitos**! Este proyecto se basa en la inteligencia artificial y el poder de las redes neuronales para combinar imágenes de gatitos, creando nuevas combinaciones visuales que no solo son asombrosas, sino también irresistiblemente tiernas.
+<p align="center"> <img src="../media/cats.jpg?raw=true" /> </p>
 
-<p align="center"> <img src="../media/interpolation_example.png?raw=true" /> </p>
+¿Alguna vez has soñado con poder fusionar dos adorables gatitos en uno solo? ¡Pues ahora puedes hacerlo realidad con el **Mezclador de Gatitos**! Este proyecto se basa en la inteligencia artificial y el poder de las redes neuronales para combinar imágenes de gatitos, creando nuevas combinaciones visuales que no solo son asombrosas, sino también irresistiblemente tiernas.
 
 Con el Mezclador de Gatitos puedes:
 
