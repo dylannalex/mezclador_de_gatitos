@@ -1,6 +1,7 @@
 # Kitten Mixer 🐱
 
 [![Website](https://img.shields.io/badge/Website-Kitten%20Mixer-blue)](https://mezclador-gatitos.streamlit.app/)
+[![Blog](https://img.shields.io/badge/Blog-%20A%20Fun%20Application%20of%20VAEs-blue)](https://dylannalex.github.io/kitten_mixer/)
 [![licence](https://img.shields.io/github/license/dylannalex/mezclador_de_gatitos?color=blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/LICENSE)
 [![English](https://img.shields.io/badge/🌐-%20English-blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/README.en.md)
 [![Español](https://img.shields.io/badge/🌐-%20Español-blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/README.md)
@@ -8,7 +9,7 @@
 
 Have you ever dreamed of merging two adorable kittens into one? Now you can make it a reality with the **Kitten Mixer**! This project is based on artificial intelligence and the power of neural networks to combine kitten images, creating new visual combinations that are not only amazing but also irresistibly cute.
 
-<p align="center"> <img src="../media/interpolation_example.png?raw=true" /> </p>
+<p align="center"> <img src="../media/cats.jpg?raw=true" /> </p>
 
 With the Kitten Mixer you can:
 
@@ -16,7 +17,9 @@ With the Kitten Mixer you can:
 
 - ✨ **Discover the hidden map of kittens:** Explore how the neural network organizes and represents kittens in a two-dimensional space.
 
-**Ready to discover combinations you never imagined?** 👉 [Explore now and create your own unique kittens](https://mezclador-gatitos.streamlit.app/).
+Ready to discover combinations you never imagined? 👉 [Explore now and create your own unique kittens](https://mezclador-gatitos.streamlit.app/).
+
+Don't miss the full project details 🐈! Visit [my blog](https://dylannalex.github.io/kitten_mixer/) to discover everything behind this fun application. 📝
 
 > The project was developed as part of the Deep Neural Networks course at UTN FRM, under the guidance of Professor Ing. Pablo Marinozi. This work is a testament to creativity, learning, and of course, a lot of cuteness! ❤️
 

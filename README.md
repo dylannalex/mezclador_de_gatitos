@@ -1,6 +1,7 @@
 # Mezclador de Gatitos 🐱
 
 [![Página Web](https://img.shields.io/badge/P%C3%A1gina_Web-Mezclador%20de%20Gatitos-blue)](https://mezclador-gatitos.streamlit.app/)
+[![Blog](https://img.shields.io/badge/Blog-%20Una%20Divertida%20Aplicaci%C3%B3n%20de%20los%20VAEs-blue)](https://dylannalex.github.io/mezclador_gatitos/)
 [![licence](https://img.shields.io/github/license/dylannalex/mezclador_de_gatitos?color=blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/LICENSE)
 [![English](https://img.shields.io/badge/🌐-%20English-blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/README.en.md)
 [![Español](https://img.shields.io/badge/🌐-%20Español-blue)](https://github.com/dylannalex/mezclador_de_gatitos/blob/main/README.md)
@@ -15,7 +16,10 @@ Con el Mezclador de Gatitos puedes:
 
 - ✨ **Descubrir el mapa oculto de los gatitos:** Explora cómo la red neuronal organiza y representa a los gatitos en un espacio bidimensional.
 
-**¿Listo para descubrir combinaciones que nunca imaginaste?** 👉 [Explora ahora y crea tus propios gatitos únicos](https://mezclador-gatitos.streamlit.app/).
+¿Listo para descubrir combinaciones que nunca imaginaste? 👉 [Explora ahora y crea tus propios gatitos únicos](https://mezclador-gatitos.streamlit.app/). 
+
+¡No te pierdas los detalles completos del proyecto 🐈! Visita [mi blog](https://dylannalex.github.io/mezclador_gatitos/) para descubrir todo lo que hay detrás de esta divertida aplicación. 📝
+
 
 > El proyecto fue desarrollado como parte de la materia Redes Neuronales Profundas en la UTN FRM, bajo la guía del profesor Ing. Pablo Marinozi. Este trabajo es un testimonio de creatividad, aprendizaje y, por supuesto, ¡mucha ternura! ❤️
 
